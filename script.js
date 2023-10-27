@@ -6,7 +6,7 @@ const ageCalculate = () => {
     // Get the user-input birth date
     const inputDate = new Date(document.getElementById("date-input").value);
   
-    // Convert dates to milliseconds since the Unix epoch
+    // Convert dates to milliseconds
     const birthTime = inputDate.getTime();
     const currentTime = today.getTime();
   
