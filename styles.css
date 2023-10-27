@@ -97,10 +97,15 @@
     color: #707070;
     font-weight: 400;
   }
-  
-  @media (max-width: 768px) {
+
+  @media (min-width: 400px) {
     .container {
-      width: 95%;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      background: linear-gradient(65deg, #84f579 50%, #a405ee 50%);
     }
   
     .output-wrapper div {
